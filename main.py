@@ -1,7 +1,7 @@
 import openpyxl
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 
 SP500Book = openpyxl.load_workbook('SP500YTD.xlsx')
 SP500YTDSheet = SP500Book.active
